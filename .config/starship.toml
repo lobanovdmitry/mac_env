@@ -1,0 +1,13 @@
+[directory]
+truncation_symbol = '.../'
+truncation_length = 6
+
+[rust]
+disabled = true
+
+[java]
+disabled = true
+
+[gradle]
+disabled = true
+
