@@ -68,6 +68,7 @@ inoremap jj <esc>
 nnoremap Y y$
 nnoremap <leader>\ :nohlsearch<CR>
 
+" Move current line up/down using Option+k/Option+j any mode
 nnoremap ∆ :m .+1<CR>==
 nnoremap ˚ :m .-2<CR>==
 inoremap ∆ <Esc>:m .+1<CR>==gi
@@ -75,8 +76,11 @@ inoremap ˚ <Esc>:m .-2<CR>==gi
 vnoremap ∆ :m '>+1<CR>gv=gv
 vnoremap ˚ :m '<-2<CR>gv=gv
 
+" Scroll down/up using Ctrl+d/Ctrl+u
 nnoremap("<C-d>", "<C-d>zz")
 nnoremap("<C-u>", "<C-u>zz")
+
+" Copy selected text into substitution command using Ctrl+r
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " quote/unquote word
