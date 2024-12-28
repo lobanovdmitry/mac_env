@@ -38,7 +38,8 @@ inoremap jj <Esc>
 :map <C-k> <Action>(MoveStatementUp)
 :map <C-j> <Action>(MoveStatementDown)
 
-":map <leader>ren <Action>(RenameElement)
+:map <leader>cn <Action>(RenameElement)
+:map <leader>cs <Action>(ChangeSignature)
 
 :map ge <Action>(ShowErrorDescription)
 :map gh <Action>(QuickJavaDoc)
