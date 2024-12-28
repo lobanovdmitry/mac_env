@@ -41,6 +41,11 @@ inoremap jj <Esc>
 :map <leader>cn <Action>(RenameElement)
 :map <leader>cs <Action>(ChangeSignature)
 
+:map <leader>em <Action>(ExtractMethod)
+:map <leader>ev <Action>(IntroduceVariable)
+:map <leader>ec <Action>(IntroduceConstant)
+:map <leader>ef <Action>(IntroduceField)
+
 :map ge <Action>(ShowErrorDescription)
 :map gh <Action>(QuickJavaDoc)
 :map gi <Action>(GotoImplementation)
