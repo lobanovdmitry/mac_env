@@ -35,8 +35,8 @@ inoremap jj <Esc>
 :map <leader>ff <Action>(FindInPath)
 :map <leader>fu <Action>(FindUsages)
 
-:map <C-k> <Action>(MoveStatementUp)
-:map <C-j> <Action>(MoveStatementDown)
+:map <M-k> <Action>(MoveStatementUp)
+:map <M-j> <Action>(MoveStatementDown)
 
 :map <leader>cn <Action>(RenameElement)
 :map <leader>cs <Action>(ChangeSignature)
